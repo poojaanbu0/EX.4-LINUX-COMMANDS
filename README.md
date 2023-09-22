@@ -3,7 +3,7 @@
 ## Aim:
 To study and execute the basis of UNIX commands.
 
-Command 1 : ls - List Files and Directories
+## Command 1 : ls - List Files and Directories
 ```
 Syntax: 
 	ls [options] [directory]
@@ -12,7 +12,7 @@ Code:
 Output: 
 	List of files and directories in /home/user with details.
 ```
-Command 2 : cd - Change Directory
+## Command 2 : cd - Change Directory
 ```
 Syntax: 
 	cd [directory]
@@ -21,7 +21,7 @@ Code:
 Output: 
 	Change to the /var/www directory.
 ```
-Command 3 : pwd - Print Working Directory
+## Command 3 : pwd - Print Working Directory
 ```
 Syntax: 
 	pwd
@@ -30,7 +30,8 @@ Code:
 Output: 
 	/home/user (prints the current working directory).
 ```
-Command 4 : mkdir - Create Directory
+## Command 4 : mkdir - Create Directory
+```
 Syntax: 
 	mkdir [directory]
 Code: 
@@ -38,7 +39,8 @@ Code:
 Output:	
 	Creates a new directory named my_directory.
  ```
-Command 5 : touch - Create Empty File
+## Command 5 : touch - Create Empty File
+```
 Syntax: 
 	touch [filename]
 Code: 
@@ -46,7 +48,7 @@ Code:
 Output: 
 	Creates a new empty file named newfile.txt.
 ```
-Command 6 : cp - Copy Files and Directories
+## Command 6 : cp - Copy Files and Directories
 ```
 Syntax: 
 	cp [options] source destination
@@ -55,7 +57,7 @@ Code:
 Output: 
 	Copies file.txt to the /backup/ directory.
 ```
-Command 7 : mv - Move/Rename Files and Directories
+## Command 7 : mv - Move/Rename Files and Directories
 ```
 Syntax: 
 	mv [options] source destination
@@ -64,7 +66,7 @@ Code:
 Output: 
 	Renames oldfile.txt to newfile.txt.
 ```
-Command 8 : rm - Remove Files and Directories
+## Command 8 : rm - Remove Files and Directories
 ```
 Syntax: 
 	rm [options] [file/directory]
@@ -73,7 +75,7 @@ Code:
 Output: 
 	Deletes file.txt.
 ```
-Command 9 : cat - Concatenate and Display File Content
+## Command 9 : cat - Concatenate and Display File Content
 ```
 Syntax: 
 	cat [filename]
@@ -82,7 +84,7 @@ Code:
 Output: 
 	Displays the content of file.txt.
 ```
-Command 10 : more - View File Content Page by Page
+## Command 10 : more - View File Content Page by Page
 ```
 Syntax: 
 	more [filename]
@@ -91,7 +93,7 @@ Code:
 Output: 
 	Allows you to view the content of longfile.txt one page at a time.
 ```
-Command 11 : less - View File Content with Navigation
+## Command 11 : less - View File Content with Navigation
 ```
 Syntax: 
 	less [filename]
@@ -100,7 +102,7 @@ Code:
 Output: 
 	Displays largefile.txt with navigation capabilities.
 ```
-Command 12 : head - Display Top Lines of a File
+##  Command 12 : head - Display Top Lines of a File
 ```
 Syntax: 
 	head [options] [filename]
@@ -109,7 +111,7 @@ Code:
 Output: 
 	Shows the first 5 lines of file.txt.
 ```
-Command 13 : tail - Display Bottom Lines of a File
+## Command 13 : tail - Display Bottom Lines of a File
 ```
 Syntax: 
 	tail [options] [filename]
@@ -118,7 +120,7 @@ Code:
 Output: 
 	Shows the last 10 lines of file.log.
 ```
-Command 14 : grep - Search Text in Files
+## Command 14 : grep - Search Text in Files
 ```
 Syntax: 
 	grep [options] 'pattern' [file(s)]
@@ -127,7 +129,7 @@ Code:
 Output: 
 	Lists lines containing 'keyword' in file.txt.
 ```
-Command 15 : find - Search for Files and Directories
+## Command 15 : find - Search for Files and Directories
 ```
 Syntax:
 	find [path] [expression]
@@ -136,7 +138,7 @@ Code:
 Output: 
 	Finds all .txt files under /home/user.
 ```
-Command 16 : chmod - Change File Permissions
+## Command 16 : chmod - Change File Permissions
 ```
 Syntax: 
 	chmod [options] permissions file(s)
@@ -145,7 +147,7 @@ Code:
 Output: 
 	Sets read and write permissions for the owner and read-only permissions for others on file.txt.
 ```
-Command 17 : chown - Change File Ownership
+## Command 17 : chown - Change File Ownership
 ```
 Syntax: 
 	chown [options] user:group file(s)
@@ -154,7 +156,7 @@ Code:
 Output: 
 	Changes the owner and group of file.txt.
 ```
-Command 18 : tar - Archive and Compress Files
+## Command 18 : tar - Archive and Compress Files
 ```
 Syntax: 
 	tar [options] [file(s)]
@@ -163,7 +165,7 @@ Code:
 Output: 
 	Creates a compressed archive of the dir/ directory.
 ```
-Command 19 : df - Display Disk Space Usage
+## Command 19 : df - Display Disk Space Usage
 ```
 Syntax: 
 	df [options] [filesystem(s)]
@@ -172,7 +174,7 @@ Code:
 Output: 
 	Shows disk space usage in a human-readable format.
 ```
-Command 20 : du - Display Directory Space Usage
+## Command 20 : du - Display Directory Space Usage
 ```
 Syntax: 
 	du [options] [directory]
@@ -181,7 +183,7 @@ Code:
 Output: 
 	Displays the total size of the /var directory in a human-readable format.
 ```
-Command 21 : ps - Display Process Status
+## Command 21 : ps - Display Process Status
 ```
 Syntax: 
 	ps [options]
@@ -190,7 +192,7 @@ Code:
 Output: 
 	Lists running processes with details.
 ```
-Command 22 : kill - Terminate Processes
+## Command 22 : kill - Terminate Processes
 ```
 Syntax: 
 	kill [signal] [PID]
@@ -199,7 +201,7 @@ Code:
 Output: 
 	Sends a SIGKILL signal to process with PID 1234.
 ```
-Command 23 : ssh - Secure Shell
+## Command 23 : ssh - Secure Shell
 ```
 Syntax: 
 	ssh [user@]hostname
@@ -208,7 +210,7 @@ Code:
 Output: 
 	Establishes a secure remote connection to remote-server.
 ```
-Command 24 : scp - Securely Copy Files Over SSH
+## Command 24 : scp - Securely Copy Files Over SSH
 ```
 Syntax:
 	scp [options] source destination
@@ -217,7 +219,7 @@ Code:
 Output: 
 	Copies file.txt to a remote server over SSH.
 ```
-Command 25 : wget - Download Files from the Internet
+## Command 25 : wget - Download Files from the Internet
 ```
 Syntax: 
 	wget [options] [URL]
